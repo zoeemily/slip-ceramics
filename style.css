@@ -1,0 +1,46 @@
+
+
+/* GENERAL */
+
+
+:root {
+    --primary-bg-color: #E5D9C0;
+    --brown: #573D36;
+    --pink: #C8A2A2;
+    --teal: #578B7E;
+
+}
+
+body {
+    margin: 0;
+    background-color: var(--primary-bg-color);
+}
+
+nav { 
+    padding: 2em;
+    background-color: var(--brown);
+}
+
+.tagline p { 
+    text-align: center;
+    font-family: Twinkle Star;
+    font-weight: Regular;
+    font-size: 1.5rem;
+}
+
+.tagline {
+    background-color:var(--pink);
+}
+
+
+img {
+    height: 300px;       /* Sets the small height */
+    width: 100%;         /* Allows it to span the width of its container */
+    object-fit: cover;   /* Keeps the image from looking squished */
+}
+
+h1, h2 {
+    text-align: center;
+    color: var(--brown);
+    font-family: Twinkle Star;
+}
