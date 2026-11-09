@@ -1,14 +1,10 @@
-
-
 /* GENERAL */
-
 
 :root {
     --primary-bg-color: #E5D9C0;
     --brown: #573D36;
     --pink: #C8A2A2;
     --teal: #578B7E;
-
 }
 
 body {
@@ -16,31 +12,98 @@ body {
     background-color: var(--primary-bg-color);
 }
 
-nav { 
-    padding: 2em;
+.nav {
+    /*position: fixed;*/
     background-color: var(--brown);
+    font-size: 1.25rem;
+    font-family: Twinkle Star;
+    justify-content: right;
 }
 
-.tagline p { 
-    text-align: center;
-    font-family: Twinkle Star;
-    font-weight: Regular;
-    font-size: 1.5rem;
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: right;
+  padding: 30px;
+}
+
+.nav ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+}
+
+.nav a {
+  color: var(--primary-bg-color);
+  text-decoration: none;
+  padding: 7px 15px;
 }
 
 .tagline {
-    background-color:var(--pink);
+  font-family: Twinkle Star;
+  font-size: 1.25rem;
+  font-weight: bold;
+  background-color: var(--pink);
+  color: var(--brown);
+  text-align: center;
+  padding: 1px
 }
 
-
-img {
-    height: 300px;       /* Sets the small height */
-    width: 100%;         /* Allows it to span the width of its container */
-    object-fit: cover;   /* Keeps the image from looking squished */
+.tagline p {
+    padding-top: 15px;
 }
 
-h1, h2 {
-    text-align: center;
+img.handsPic {
+  object-fit: cover;
+  opacity: 70%;
+}
+
+.bestSellers {
+    padding: 50px;
+}
+
+.bestSellers h1 {
+    font-family: Twinkle Star;
+    color: var(--brown);
+    font-size: 1.5rem;
+}
+
+.col {
+    background-color: var(--teal);
+}
+
+.flex-container2 {
+  background-color: var(--pink);
+  display: flex;         
+  align-items: center;   
+  gap: 30px;  
+  padding: 20px;          
+}
+
+.side-image {
+  width: 300px;          
+  height: auto;    
+  opacity: 70%;      
+}
+
+.text-content {
+    color: var(--brown);
+}
+
+.text-content h2 {
+    font-family: Twinkle Star;
+}
+
+.text-content p {
+    font-family: Parkinsans;
+    font-size: 1rem;
+}
+
+.shopBy {
+    background-color: var(--teal);
     color: var(--brown);
     font-family: Twinkle Star;
+    text-align: center;
+    padding: 50px;
 }
