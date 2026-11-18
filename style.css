@@ -60,7 +60,8 @@ img.handsPic {
 }
 
 .bestSellers {
-    padding: 30px;
+    padding: 50px;
+    align-items: center;
 }
 
 .bestSellers h1 {
@@ -69,34 +70,36 @@ img.handsPic {
     color: var(--brown);
     font-size: 28px;
     text-align: center;
-    padding: 15px 10px 10px 30px;
+    padding: 15px 0px 20px 0px;
 }
 
 .bestsellcard {
     color: var(--brown);
-    padding: 10px;
+    padding: 10px 0 30px 0;
 }
 
 .bestsellcard h5 {
     font-family: twinkle star;
     font-weight: bold;
     font-size: 20px;
+    padding: 15px 0 10px 0;
 }
 
 .card-img {
     border-radius: 10px;
+    max-width: 250px;
+    max-height: 150px;
+    object-fit: cover;
 }
 
 .shopbutton {
-    font-family: Twinkle Star;
-    font-weight: bold;
+    font-family: Parkinsans;
     background-color: var(--pink);
     color: var(--brown);
     text-decoration: none;
     border-radius: 5px;
     text-align: center;
-    padding: 10px 35px;
-    text-decoration: none;
+    padding: 7px 25px;
 }
 
 .bowls {
@@ -116,7 +119,7 @@ img.handsPic {
 .pottery {
   display: flex;         
   align-items: center;   
-  gap: 30px;  
+  gap: 30px 45px;  
   padding: 20px;          
 }
 
@@ -180,24 +183,113 @@ img.cup {
 }
 
 .this-section {
-background-image: url("img/vases.jpg");
-opacity: 75%;
-background-color: var(--pink);
-background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
+    background-image: url("img/vases.jpg");
+    opacity: 75%;
+    background-color: var(--pink);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 
-min-height: 400px;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-color: white;
-text-align: center;
-font-family: twinkle star;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    font-family: twinkle star;
 }
 
 footer {
+    font-family: parkinsans;
     background-color: var(--brown);
-    padding: 100px;
+    padding: 40px 30px 30px 55px;
+    display: flex;
+    justify-content: center; 
+}
+
+.footer a {
+    text-decoration: none;
+    color: var(--primary-bg-color);
+}
+
+.footer ul {
+    list-style-type: none;
+}
+
+
+.form-btn {
+    background-color: var(--teal);
+    color: var(--primary-bg-color);
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    padding: 7px 10px;
+}
+
+
+.copyright {
+    background-color: var(--teal);
+    text-align: center;
+    font-family: parkinsans;
+    color: var(--brown);
+    padding: 10px;
+    margin: auto;
+}
+
+/* ABOUT */
+
+.whoWeAre {
+    background-image: url("img/pottery.jpg");
+    opacity: 75%;
+    background-color: var(--pink);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    font-family: twinkle star;    
+}
+
+.whoWeAre p {
+    font-family: Parkinsans;
+}
+
+.beforeKiln {
+    display: flex;         
+    align-items: center; 
+    gap: 30px;
+    padding: 40px 60px;
+    background-color: var(--pink);        
+}
+
+.beforeKiln img {
+    object-fit: cover;
+    height: 300px;  
+    width: 350px;
+}
+
+.middleBanner {
+    object-fit: cover;
+    opacity: 70%;
+    max-height: 400px;
+}   
+
+.founder {
+    display: flex;         
+    align-items: center; 
+    gap: 30px;
+    padding: 40px 60px;     
+}
+
+.founder img {
+    object-fit: cover;
+    height: 300px;  
+    width: 350px;
 }
