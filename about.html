@@ -26,14 +26,21 @@
 
 <body>
 
-  <nav class="nav">
-    <div class="nav-flex-container">
-      <ul>
-        <li><a href="shop.html">Shop</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="locations.html">Locations</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
+  <nav class="navbar">
+    <div class="container">
+      <a class="navbar-logo"><img src="img/full logo.png" alt="slip logo"></a>
+        </div>
+
+        <div class="pages">
+          <ul>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="locations.html">Locations</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        
+        </div>
     </div>
   </nav>
 
@@ -78,10 +85,10 @@
   </section>
 
   <footer>
-    <div class="footer">
+    <div class="footer container">
       <div class="row">
 
-        <div class="col">
+        <div class="first md:col-3">
           <ul>
             <li><a href="shop.html">Shop</a></li>
             <li><a href="about.html">About</a></li>
@@ -92,21 +99,28 @@
           </ul>
         </div>  
 
-        <div class="col">
+        <div class="second md:col-3">
           <ul>
             <li><a href="index.html">FAQ</a></li>
             <li><a href="index.html">Shipping</a></li>
             <li><a href="index.html">Returns</a></li>
-          </ul>
+            <br>
+          <h3>Follow Us</h3>
+          <i class="fa-brands fa-square-instagram"></i>
+          <i class="fa-brands fa-square-twitter"></i>
+          <i class="fa-brands fa-square-facebook"></i>      
+          </ul>    
         </div>  
 
-        <div class="col">
+        <div class="third md:col-3">
+          <h3 class="footerHeading">Subscribe to our newsletter!</h3>
+          <br>
           <form class="newsletter">
-            <input class="form-bub" placeholder="Name">
-            <input class="form-bub" placeholder="Email">
-            <div><a href="#" class="form-btn">Sign Up!</a></div>
+            <input class="formFill" placeholder="email">
+            <button class="signUp">Subscribe!</button>
           </form>
         </div>
+
       </div>
     </div>
   </footer>
