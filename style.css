@@ -12,7 +12,6 @@ body {
     background-color: var(--primary-bg-color);
 }
 
-
 .navbar {
     background-color: var(--brown);
     font-size: 1.25rem;
@@ -20,22 +19,26 @@ body {
 }
 
 .navbar-logo img {
+    align-items: left;
     max-height: 70px;
     object-fit: cover;
+    display: flex;
 }
 
-.container {
+
+.nav-container {
   display: flex;
   align-items: right;
-  padding: 20px;
+  padding: 30px;
   margin: auto;
+    border: var(--pink) 2px solid;
 }
 
 
-.navbar ul {
-  display: flex;
+.navbar-links {
   list-style-type: none;
   align-items: right;
+  border: var(--teal) 2px solid;
 }
 
 .navbar a {
